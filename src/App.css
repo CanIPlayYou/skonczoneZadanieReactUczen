@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.NavBar{
+  background-color: #97a97c;
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #e9f5db;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  z-index: 2;
+  position: relative;
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.196);
+}
+
+.Window{
+  background-color: #87986a;
+  margin-top: -22px;
+  height: 686px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.UczenWindow{
+  margin-top: 22px;
+  background-color: #97a97c;
+  width: 60%;
+  height: 600px;
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 10px 7px 7px rgba(0, 0, 0, 0.196);
+}
+
+.imgUczen{
+  width: 50%;
+  height: 300px;
+}
+
+.opisUczen{
+  width: 50%;
+  height: 210px;
+  padding-top: 45px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.opisUczenIn1{
+  width: 50%;
+  height: 210px;
+  text-align: right;
+  padding-top: 35px;
+  padding-right: 20px;
+  color: white;
+}
+
+.opisUczenIn2{
+  width: 50%;
+  height: 210px;
+  text-align: left;
+  padding-top: 35px;
+  color: white;
+}
+
+.ocenyUczen{
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.strzalki{
+  margin: 40px;
+}
+
+.strzalkaButton{
+  background-color: #87986a;
+  border: none;
+}
+
+.strzalka {
+  border: solid black;
+  border-width: 0 10px 10px 0;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.strzalka:hover{
+  border: solid rgb(39, 39, 39);
+  border-width: 0 10px 10px 0;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
